@@ -1,0 +1,105 @@
+.body-index{
+    background-color: #f3a732;
+}
+
+.body-p1{
+    background-image: url(images/SFO_Large_V2.webp);
+    object-fit: scale-down;
+}
+
+.body-p2{
+   background-color: ;
+}
+
+.body-p3{
+   
+}
+
+.body-p4{
+    
+}
+
+.body-p5{
+   
+}
+
+.body-p6{
+    
+}
+
+.container-index{
+    display: flex;
+    overflow-x: hidden;
+    margin: auto;
+    width: 70%;
+    color: #582b0b;
+}
+
+@font-face {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 900;
+    font-style: italic;    
+    src: url(https://use.typekit.net/ckw8fur.css);
+}
+
+h1{
+    font-family: "neue-haas-grotesk-display";
+    font-size: 325px;
+    flex-wrap: wrap;
+}
+
+#postcard{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: rotate(-20deg)
+}
+
+#begin{
+    font-family: ;
+    font-size: 36px;
+}
+
+@media only screen and (max-width: 1000px){
+    body{
+        width: 1000px;
+        margin: auto;
+    }
+    
+    .container{
+        padding-top: 0px;
+    }
+    figure.item{
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .container{
+        padding-top: 0px;
+    }
+    figure.item{
+        width: 600px;
+        height: 600px;
+    }
+}
+
+/* colors: 
+#4366a8 blue
+#56d58d seafoam green
+#582b0b brown
+#a08d20 mud green
+#da2e18 dark red
+#db5eab dark pink
+#ee6636 orange
+#f3a732 turmeric
+#fe0000 red
+#febb2d yellow
+#ffd3d4 light pink
+ */
