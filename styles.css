@@ -236,6 +236,11 @@
     
 }
 
+.body-back{
+    background-image: url("images/IMG_8476.jpeg");
+    object-fit: contain;
+}
+
 #joke{
     text-align: center;
     font-size: 18px;
